@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { DashBordComponent } from './dash-bord/dash-bord.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PolicyDetailsComponent } from './policy-details/policy-details.component';
 
 
 @NgModule({
@@ -24,10 +26,13 @@ import { DashBordComponent } from './dash-bord/dash-bord.component';
     ImageCarouselComponent,
     SideBarComponent,
     DashBordComponent,
+    PolicyDetailsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

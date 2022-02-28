@@ -1,0 +1,22 @@
+.red { color: red; }
+.size20 { font-size: 20px; }
+.blue{ color:blue; }
+.purple{ color: purple; }
+
+a{
+    color:black;
+}
+.nav-link.active{
+    background-color: 	#df4759;
+    color: white;
+}
+a:hover{
+    background-color: 	#df4759;
+    color: white;
+}
+
+@media only screen and (max-width: 1314px) {
+    [class="container"] {
+      margin-left: 100px;
+    }
+  }
