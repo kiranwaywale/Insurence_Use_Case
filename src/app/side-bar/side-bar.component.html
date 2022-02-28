@@ -1,8 +1,9 @@
 <div class="d-flex flex-column flex-shrink-0 bg-danger vh-100" style="width: 100px; position: fixed;">
   <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-    <li class="nav-item"> <a href="#" class="nav-link py-3 border-bottom" style="color: white;"> <i class="fa fa-home"></i>
+    <li class="nav-item"> <a href="#" class="nav-link py-3 border-bottom" style="color: white;"> <i
+          class="fa fa-home"></i>
         <small>Home</small> </a> </li>
-    <li> <a href="#" class="nav-link py-3 border-bottom" style="color: white;"> <i class="fas fa-tachometer"
+    <li> <a href="#" class="nav-link py-3 border-bottom" style="color: white;"> <i class="fab fa-dashcube"
           style="color: white;"></i> <small>Dashboard</small> </a>
     </li>
     <li> <a href="#" class="nav-link py-3 border-bottom" style="color: white;"> <i class="fab fa-first-order"
@@ -31,6 +32,39 @@
       </div>
     </li>
   </ul>
-
-
+</div>
+<div class="container">
+  <br>
+  <br>
+  <div class="card-deck">
+    <div class="card" style="box-shadow: 2px 2px 2px 2px red;border-radius: 15px;">
+      <form class="form" style="border-radius: 15px;">
+        <br>
+        <div class="form-column">
+          <div class="col">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email"
+              style="border-radius: 20px;">
+          </div>
+          <div class="col">
+            <label for="paw">Password</label>
+            <input type="password" class="form-control" id="paw" placeholder="Enter password" name="pswd"
+              style="border-radius: 20px;">
+          </div>
+          <div class="col">
+            <br>
+            <input type="checkbox" class="form-checkbox" id="paw"><span> Remember me </span>
+          </div>
+          <div class="col">
+            <br>
+            <button type="submit" class="btn btn-danger" style="border-radius: 20px;">LogIn</button>
+          </div>
+          <br>
+        </div>
+      </form>
+    </div>
+    <div class="card">
+      <img [src]="login" alt="">
+    </div>
+  </div>
 </div>
