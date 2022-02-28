@@ -12,6 +12,7 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { DashBordComponent } from './dash-bord/dash-bord.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,7 @@ import { DashBordComponent } from './dash-bord/dash-bord.component';
     FooterComponent,
     ImageCarouselComponent,
     SideBarComponent,
-    DashBordComponent
+    DashBordComponent,
   ],
   imports: [
     BrowserModule,
