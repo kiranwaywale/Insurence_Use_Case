@@ -13,6 +13,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { DashBordComponent } from './dash-bord/dash-bord.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PolicyDetailsComponent } from './policy-details/policy-details.component';
+import { NewPolicyComponent } from './new-policy/new-policy.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { PolicyDetailsComponent } from './policy-details/policy-details.componen
     SideBarComponent,
     DashBordComponent,
     PolicyDetailsComponent,
+    NewPolicyComponent,
   ],
   imports: [
     BrowserModule,

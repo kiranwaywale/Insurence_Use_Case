@@ -1,8 +1,3 @@
-.red { color: red; }
-.size20 { font-size: 20px; }
-.blue{ color:blue; }
-.purple{ color: purple; }
-
 a{
     color:black;
 }
@@ -16,7 +11,13 @@ a:hover{
 }
 
 @media only screen and (max-width: 1314px) {
-    [class="container"] {
+    [class="tab-content"] {
+      margin-left: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 1314px) {
+    [class="nav nav-tabs"] {
       margin-left: 100px;
     }
   }
