@@ -14,6 +14,8 @@ import { DashBordComponent } from './dash-bord/dash-bord.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PolicyDetailsComponent } from './policy-details/policy-details.component';
 import { NewPolicyComponent } from './new-policy/new-policy.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { NewPolicyComponent } from './new-policy/new-policy.component';
     DashBordComponent,
     PolicyDetailsComponent,
     NewPolicyComponent,
+    AboutUsComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
