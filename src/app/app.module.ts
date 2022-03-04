@@ -16,6 +16,7 @@ import { PolicyDetailsComponent } from './policy-details/policy-details.componen
 import { NewPolicyComponent } from './new-policy/new-policy.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MyPolicyComponent } from './my-policy/my-policy.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     NewPolicyComponent,
     AboutUsComponent,
     ContactUsComponent,
+    MyPolicyComponent,
   ],
   imports: [
     BrowserModule,

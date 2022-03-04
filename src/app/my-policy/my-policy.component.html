@@ -1,0 +1,29 @@
+<div id="menu1" class="container tab-pane fade">
+    <div id="home" class="container tab-pane active">
+      <div class='table-responsive'>
+        <table class='table table-hover'>
+          <thead>
+            <tr>
+              <th [ngStyle]="{'color': color}">Sr.No</th>
+              <th [ngStyle]="{'color': color}">Policy_ID</th>
+              <th [ngStyle]="{'color': color}">Policy_Name</th>
+              <th [ngStyle]="{'color': color}">Policy_Premium</th>
+              <th [ngStyle]="{'color': color}">Policy_Terms</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!--*ngFor Directive - Looping through the policies-->
+            <!--policies is the array holding all the polcies accessed from the PolicyService-->
+            <tr *ngFor="let Mypolicy of Mypolicies;">
+              <td>{{Mypolicy.policySrNo}}</td>
+              <td>{{Mypolicy.policyID}}</td>
+              <td>{{Mypolicy.policyname}}</td>
+              <td>{{Mypolicy.policyrate}}</td>
+              <td>{{Mypolicy.policyterms}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+<p>my-policy works!</p>
